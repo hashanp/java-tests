@@ -8,7 +8,6 @@ public class Huffman {
   public Huffman() {
     leafEntries = new HuffmanData[SIZE];
     pq = new PriorityQueue<>();
-    huffmanTree = new BinaryTree<>();
   }
 
   public void setFrequencies() {
