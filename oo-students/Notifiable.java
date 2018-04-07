@@ -1,4 +1,4 @@
 
 public interface Notifiable {
-	void notify(String message);
+  void notify(String message);
 }
